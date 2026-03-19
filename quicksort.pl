@@ -6,3 +6,14 @@
 %   que contiene los elementos de Lista que son
 %   mayores que Elem.
 %------------------------------------------------------
+
+
+
+
+
+%---------------------------------------------------
+% ordena_quick(+Lista, -ListaR).
+%es cierto cuando ListaR unifica con una lista que
+%contiene los mismos elementos que Lista ordenados
+%de menor a mayor.
+%------------------------------------------------
