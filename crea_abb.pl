@@ -16,5 +16,5 @@ crea_abb(Lista, a(Raiz, Hi, Hd) ):-
   Mitad is L div 2,
   length(ListaIzq, Mitad),
   append(ListaIzq, [Raiz|ListaDch], Lista),
-  crea_ab(ListaIzq, Hi),
-  crea_ab(ListaDch, Hd).
+  crea_abb(ListaIzq, Hi),
+  crea_abb(ListaDch, Hd).
